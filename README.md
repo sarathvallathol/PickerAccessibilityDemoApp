@@ -1,1 +1,1 @@
-# PicketAccessibilityDemoApp
+# PickerAccessibilityDemoApp
