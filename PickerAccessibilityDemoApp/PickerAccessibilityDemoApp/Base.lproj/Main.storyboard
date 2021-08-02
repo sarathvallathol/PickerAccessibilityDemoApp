@@ -18,7 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxx-l0-dJT">
-                                <rect key="frame" x="152" y="204" width="110" height="30"/>
+                                <rect key="frame" x="146" y="204" width="122" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="useMobileSafari">
                                     <color key="titleColor" systemColor="linkColor"/>
                                 </state>
@@ -27,7 +28,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbY-Dc-Bd7">
-                                <rect key="frame" x="101.5" y="433" width="211" height="30"/>
+                                <rect key="frame" x="90" y="431.5" width="234" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="useMobileSafariViewController"/>
                                 <connections>
                                     <action selector="safariVcTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HA8-9g-vJ5"/>

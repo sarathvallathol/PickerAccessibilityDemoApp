@@ -21,7 +21,7 @@ class MainViewController: UIViewController, SFSafariViewControllerDelegate {
 
     @IBAction func safariBrowserTapped(_ sender: UIButton) {
         guard let url = URL(string: urlString) else { return }
-        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        UIApplication.shared.open(url)
     }
 
     @IBAction func safariVcTapped(_ sender: UIButton) {
